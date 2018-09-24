@@ -23,8 +23,8 @@ from message import send_text_message, send_reset_confirm_message
 
 app = Flask(__name__)
 
-channel_secret = os.getenv('LINE_CHANNEL_SECRET')
-channel_access_token = os.getenv('LINE_CHANNEL_ACCESS_TOKEN')
+channel_secret = os.getenv('3269f9dfd6c248d141ec97004cf8d59c')
+channel_access_token = os.getenv('/Ams3awUqd85GY7M2HFaDfUwVz3VGZc6Mq6cBiXPvMlZatqHibCDVthXe58fDa5Zff21gwQW66Y9a063MIIAHolIjOln6PhGRLuA6r0AcUBv5VxrGv0m72GESpdjE64CEh6JgDbHUBvunIIB6/CwOQdB04t89/1O/w1cDnyilFU=')
 
 MESSAGE_HELP = """
 * 加入事件
